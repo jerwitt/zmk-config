@@ -14,7 +14,7 @@
  
         default_layer {
             bindings = <
-                &kp F7
+                &kp LS(LC(LA(LG(A))))
                 &kp Z
             >;
         };
