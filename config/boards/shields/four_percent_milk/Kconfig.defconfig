@@ -1,0 +1,9 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_FOUR_PERCENT_MILK
+
+config ZMK_KEYBOARD_NAME
+    default "4% Milk"
+
+endif
