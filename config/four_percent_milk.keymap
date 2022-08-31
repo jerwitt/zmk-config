@@ -15,7 +15,7 @@
         default_layer {
             bindings = <
                 &kp LS(LG(A))
-                &mt B
+                &kp B
                 &kp SHIFT
             >;
         };
