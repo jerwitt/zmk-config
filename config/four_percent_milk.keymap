@@ -15,8 +15,8 @@
         default_layer {
             bindings = <
                 &kp LS(LG(A))
-                &kp B
-                &kp C
+                &mt LSHIFT
+                &kp SHIFT
             >;
         };
     };
