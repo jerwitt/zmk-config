@@ -15,8 +15,8 @@
         default_layer {
             bindings = <
                 &kp LS(LG(A))
-                &mt B
-                &kp SHIFT
+                &kp B
+                &out OUT_BLE
             >;
         };
     };
