@@ -16,11 +16,7 @@
             bindings = <
                 &kp LS(LG(A))
                 &kp B
-<<<<<<< HEAD
                 &out OUT_BLE
-=======
-                &kp LEFT_SHIFT
->>>>>>> 414f303bc952a0f21a316d354086db11ae726a4b
             >;
         };
     };
