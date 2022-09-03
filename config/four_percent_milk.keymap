@@ -15,7 +15,7 @@
       ZMK_MACRO(jonathan,
         wait-ms = <30>;
         tap-ms = <40>;
-        bindings = <&kp J &kp O &kp N> 
+        bindings = <&kp J &kp O &kp N>; 
       )
     };
     keymap {
