@@ -10,13 +10,28 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+	macros {
+		jonathan: jonathan {
+			label = "Jonathan";
+			compatible = "zmk,behavior-macro";
+			#bindings-cells = <0>;
+			bindings =
+				<&macro_press &kp LSHFT>
+				, <&macro_tap &kp j>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp o &kp n &kp a &kp t &kp h &kp a &kp n>; 
+		};
+	};
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
  
         default_layer {
             bindings = <
                 &bt BT_CLR
-                &kp Jonathan
+		&jonathan
                 &out OUT_BLE
             >;
         };
