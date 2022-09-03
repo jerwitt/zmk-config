@@ -10,18 +10,19 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-	macros {
-		jonathan: jonathan {
-			label = "Jonathan";
-			compatible = "zmk,behavior-macro";
-			#bindings-cells = <0>;
-			bindings =
-				<&macro_press &kp LSHFT>
-				, <&macro_tap &kp j>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp o &kp n &kp a &kp t &kp h &kp a &kp n>; 
-		};
-	};
+  macros {
+    jonathan: jonathan {
+      label = "Jonathan";
+      compatible = "zmk,behavior-macro";
+      #bindings-cells = <0>;
+      bindings
+        = <&macro_press &kp LSHFT>
+        , <&macro_tap &kp J>
+        , <&macro_release &kp LSHFT>
+        , <&macro_tap &kp O &kp N &kp A &kp T &kp H &kp A &kp N>
+        ; 
+    };
+  };
 };
 
 / {
@@ -31,7 +32,7 @@
         default_layer {
             bindings = <
                 &bt BT_CLR
-		&jonathan
+                &jonathan
                 &out OUT_BLE
             >;
         };
