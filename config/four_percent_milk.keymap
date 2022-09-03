@@ -14,7 +14,6 @@
     jonathan: jonathan {
       label = "Jonathan";
       compatible = "zmk,behavior-macro";
-      #bindings-cells = <0>;
       bindings
         = <&macro_press &kp LSHFT>
         , <&macro_tap &kp J>
