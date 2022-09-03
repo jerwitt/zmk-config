@@ -13,8 +13,8 @@
 / {
     macros {
       ZMK_MACRO(jonathan,
-        wait-ms = <30>;
-        tap-ms = <40>;
+        wait-ms = <20>;
+        tap-ms = <15>;
         
         bindings 
           = <&macro_press &kp LSHFT>
