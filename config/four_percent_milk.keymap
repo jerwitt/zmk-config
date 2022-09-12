@@ -32,8 +32,8 @@
  
         default_layer {
             bindings = <  
-                &lt LOWER LS(LG(A))
                 &kp LS(LG(V))
+                &lt LOWER LS(LG(A))
 /*                &bt BT_CLR
                 &jonathan
                 &out OUT_BLE
