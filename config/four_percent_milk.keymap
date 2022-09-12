@@ -28,12 +28,15 @@
         compatible = "zmk,keymap";
  
         default_layer {
-            bindings = <
-                &bt BT_CLR
+            bindings = <  
+                &kp LS(LG(A))
+                &kp LS(LG(V))
+/*                &bt BT_CLR
                 &jonathan
                 &out OUT_BLE
                 &bt BT_SEL 0
                 &bt BT_NXT
+*/
             >;
         };
     };
