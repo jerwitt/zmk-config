@@ -32,7 +32,7 @@
  
         default_layer {
             bindings = <  
-                &ht_tp LOWER LS(LG(A))
+                &lt LOWER LS(LG(A))
                 &kp LS(LG(V))
 /*                &bt BT_CLR
                 &jonathan
