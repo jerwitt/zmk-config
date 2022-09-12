@@ -10,6 +10,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 
+#define DEFAULT 0
+#define LOWER 1
+
 / {
     macros {
       ZMK_MACRO(jonathan,
@@ -29,7 +32,7 @@
  
         default_layer {
             bindings = <  
-                &kp LS(LG(A))
+                &ht LOWER LS(LG(A))
                 &kp LS(LG(V))
 /*                &bt BT_CLR
                 &jonathan
@@ -37,6 +40,12 @@
                 &bt BT_SEL 0
                 &bt BT_NXT
 */
+            >;
+        };
+        lower_layer {
+            bindings = <
+              &trans
+              &out OUT_BLE
             >;
         };
     };
