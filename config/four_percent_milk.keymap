@@ -44,8 +44,8 @@
         };
         lower_layer {
             bindings = <
+              &out OUT_BLE
               &trans
-              &bt BT_CLR
             >;
         };
     };
