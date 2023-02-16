@@ -14,19 +14,6 @@
 #define LOWER 1
 
 / {
-    macros {
-      ZMK_MACRO(jonathan,
-        wait-ms = <10>;
-        tap-ms = <5>;
-        
-        bindings 
-          = <&macro_press &kp LSHFT>
-          , <&macro_tap &kp J>
-          , <&macro_release &kp LSHFT>
-          , <&macro_tap &kp O &kp N &kp A &kp T &kp H &kp A &kp N>
-          ; 
-      )
-    };
     keymap {
         compatible = "zmk,keymap";
  
@@ -34,17 +21,11 @@
             bindings = <  
                 &kp LS(LG(V))
                 &lt LOWER LS(LG(A))
-/*                &bt BT_CLR
-                &jonathan
-                &out OUT_BLE
-                &bt BT_SEL 0
-                &bt BT_NXT
-*/
             >;
         };
         lower_layer {
             bindings = <
-              &out OUT_BLE
+              &out OUT_TOG
               &trans
             >;
         };
