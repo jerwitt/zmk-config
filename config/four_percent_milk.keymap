@@ -19,15 +19,16 @@
  
         default_layer {
             bindings = <  
-                &kp LS(LG(V))
-                &lt LOWER LS(LG(A))
+                &kp X
+                &kp Y
             >;
         };
-        lower_layer {
+/*        lower_layer {
             bindings = <
               &out OUT_TOG
               &trans
             >;
         };
+*/
     };
 };
